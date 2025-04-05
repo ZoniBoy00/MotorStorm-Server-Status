@@ -46,7 +46,14 @@ cd MotorStorm-Server-Status
 pip install -r requirements.txt
 ```
 
-3. **Run the bot:**
+3. **Open MotorStorm_Status.py** in the project and add your token and channel ID:
+
+```
+TOKEN=DISCORD_BOT_TOKEN_HERE
+CHANNEL_ID=YOUR_CHANNEL_ID_HERE
+```
+
+4. **Run the bot:**
 
 ```bash
 python MotorStorm_Status.py
